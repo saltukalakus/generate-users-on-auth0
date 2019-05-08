@@ -3,7 +3,7 @@
 This script runs the [create a user management API](https://auth0.com/docs/api/management/v2#!/Users/post_users) to create users from a JSON array in a file named <b>file.json</b>. Normally you <b>should always</b> be using [the import management API](https://auth0.com/docs/api/management/v2#!/Jobs/post_users_imports) to create users in bulk but under very special circumstances this script might be useful where the import API is insufficient. Notice that if you run this script with a large user base, it is very likely that your tenant will be banned so only use it with caution and with a small number of users. Like less than 1K. [Create a user API](https://auth0.com/docs/api/management/v2#!/Users/post_users) requires a password for the user to create. The script generates different random passwords for each user. The users should get a reset link to update the passwords similar to importing with the import API.
 
 
-**Build steps**
+**Setup steps**
 
 1-) Copy <b>.env-sample</b> as <b>.env</b> in the root folder of the project. Add the required parameters in the <b>.env</b> file appropriate for your Auth0 tenant.
 
