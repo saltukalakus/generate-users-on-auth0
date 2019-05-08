@@ -23,11 +23,11 @@ The client_id in my test environment is the one used for <b>API Explorer Applica
 
 **Running the script**
 
-// This needs to be run once
+Install the dependencies. 
 ```
 $ npm install
 ```
-// Run the script
+Execute the script.
 ```
 $ npm start
 ```
