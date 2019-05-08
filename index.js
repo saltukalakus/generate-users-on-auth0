@@ -31,6 +31,12 @@ async function generateUser(user) {
 
 var fs = require('fs');
   fs. readFile(process.env.BULK_USER_FILE, 'utf8', function(err, contents) {
+  
+  if (err) {
+    console.log(err)
+    return;
+  }
+  
   users = JSON.parse(contents);
   for (user in users){
     console.log (users[user]);
