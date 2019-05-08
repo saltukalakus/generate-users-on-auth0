@@ -1,0 +1,14 @@
+{
+    "name": "generate-users-on-auth0",
+    "version": "0.0.1",
+    "description": "Generates users available in a file in JSON form",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "auth0": "^2.17.0",
+        "dotenv": "^8.0.0",
+        "sleep": "^6.1.0"
+    }
+}
